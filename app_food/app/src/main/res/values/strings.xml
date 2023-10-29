@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">app_food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_map_api_key">AIzaSyDLQMfYarniAfbVs5fG9FsPJOofi3FepCI</string>
+</resources>

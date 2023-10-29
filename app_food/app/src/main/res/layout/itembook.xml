@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tx_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="Book 1"/>
+            <TextView
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/tx_titles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Book 1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/productStatusLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bán chạy"
+                android:textColorHighlight="@color/white"
+
+                android:textSize="20sp"
+                android:background="@drawable/custom_button_background"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+            <TextView
+                android:background="@drawable/custom_button_background"
+                android:id="@+id/productStatusLabel11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bán chạy"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

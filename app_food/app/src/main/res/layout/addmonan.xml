@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<!--    masanpham INTEGER PRIMARY KEY AUTOINCREMENT, tensanpham text, giatien INTEGER, hinhanh INTEGER, mota text, madanhmuc INTEGER-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text = "Thêm món ăn"
+        android:textStyle="bold"
+        android:textAlignment="center">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sản phẩm"
+        android:id="@+id/edtensanpham"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá tiền"
+        android:id="@+id/edgiatien"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hình ảnh"
+        android:id="@+id/edhinhanh"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mô tả món ăn"
+        android:id="@+id/edmota"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã danh mục"
+        android:id="@+id/edmadanhmuc"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnthemmonan"
+        android:text="Thêm món ăn"></Button>
+
+
+</LinearLayout>

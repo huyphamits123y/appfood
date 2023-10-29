@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<!--    masanpham INTEGER PRIMARY KEY AUTOINCREMENT, tensanpham text, giatien INTEGER, hinhanh INTEGER, mota text, madanhmuc INTEGER, FOREIGN KEY (madanhmuc) REFERENCES huy(madanhmuc)-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa món ăn"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittensanpham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="text"
+        android:hint="Nhập tên món ăn" />
+
+    <EditText
+        android:id="@+id/editgiatien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập giá tiền"/>
+
+    <EditText
+        android:id="@+id/edithinhanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập  hình ảnh"/>
+    <EditText
+        android:id="@+id/editmota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập mô tả"/>
+    <EditText
+        android:id="@+id/editmadanhmuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập mã danh mục"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsuamonan"
+        android:text="Sửa món ăn"></Button>
+
+</LinearLayout>
